@@ -17,20 +17,25 @@
   background-position: center;
   height: 100vh;
   display: flex;
-  flex-direction: column;
   justify-content: center;
   align-items: center;
-  padding: 0 25px;
 
-  h1 {
-    font-family: "bebas_neuelight";
-    font-size: 150px;
-    color: white;
-  }
+  #transbox {
+    height: 80%;
+    width: 80%;
+    background-color: black;
+    opacity: 0.8;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 
-  h3 {
-    font-family: "Open Sans";
-    font-size: 40px;
-    color: whitesmoke;
+    h1 {
+      font-family: "bebas_neuelight";
+      /* font-family: "Bebas Neue", cursive; */
+      font-size: clamp(40px, 14vw, 190px);
+      letter-spacing: 4px;
+      color: #ffd6fc;
+    }
   }
 }
