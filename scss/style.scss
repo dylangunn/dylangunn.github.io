@@ -95,6 +95,10 @@ body {
   }
 }
 
+.greybox {
+  background: #e8e8e8;
+}
+
 h2 {
   font-family: "Bebas Neue";
   font-size: 45px;
@@ -109,4 +113,29 @@ h3 {
 
 p {
   font-size: 16px;
+}
+
+#awards {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  p {
+    max-width: 900px;
+  }
+}
+
+#contact {
+  background: black;
+  height: 120px;
+  color: #cccccc;
+  text-align: center;
+
+  h3 {
+    font-family: "Bebas Neue";
+    font-size: 36px;
+    letter-spacing: 1px;
+    padding-top: 6px;
+  }
 }
