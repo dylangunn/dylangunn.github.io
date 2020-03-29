@@ -11,6 +11,10 @@
   padding: 0;
 }
 
+body {
+  font-family: "Open Sans";
+}
+
 #showcase {
   background-image: url(../../images/showcase_watersurface.jpg);
   background-size: cover;
@@ -89,4 +93,20 @@
     height: 36px;
     padding-right: 6px;
   }
+}
+
+h2 {
+  font-family: "Bebas Neue";
+  font-size: 45px;
+  letter-spacing: 1px;
+}
+
+h3 {
+  font-family: "bebas_neuelight";
+  font-size: 26px;
+  letter-spacing: 1px;
+}
+
+p {
+  font-size: 16px;
 }
